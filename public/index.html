@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Class Test</title>
+</head>
+<body>
+    
+    <!-- FORM -->
+    <form class="main-container">
+        <div class="name-div">
+            <label>Your Name: </label>
+            <input required type="text" id="user-name" placeholder="Enter Your Name">
+        </div>
+        <div class="class-div">
+            <label>Your Class: </label>
+            <input required type="text" id="user-class" placeholder="Enter Your Class">
+        </div>
+        <div class="roll-div">
+            <label>Your Roll number: </label>
+            <input required type="number" id="user-roll" placeholder="Enter Your Roll num">
+        </div>
+            <button id="btn">Submit</button>
+    </form>
+
+    <!-- MARKSHEET/RESULT -->
+    <div class="marksheet" style="display: none;">
+        <h2>Mark Sheet</h2>
+        <div class="user-detail">
+            <p id="name">name</p>
+            <p id="clas">class</p>
+            <p id="roll">roll</p>
+        </div>
+       <div class="marks">
+            <div class="subject-mark">
+                <p id="sub1">subject</p>
+                <p id="mark1">mark</p>
+            </div>
+            <div class="subject-mark">
+                <p id="sub2">subject</p>
+                <p id="mark2">mark</p>
+            </div>
+            <div class="subject-mark">
+                <p id="sub3">subject</p>
+                <p id="mark3">mark</p>
+            </div>
+       </div>
+        <div class="result">
+            <p id="total">total</p>
+            <p id="percent">percent</p>
+            <p id="grade">grade</p>
+        </div>
+    </div>
+
+</body>
+    <script src="app.js"></script>
+</html>
