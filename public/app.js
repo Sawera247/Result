@@ -48,7 +48,7 @@ btn.addEventListener('click', (e) => {
     total.innerText = `Total: ${totalMarks}`;
 
     let percentage = (totalMarks * 100 / 300);
-    percent.innerText = `Percentage: ${percentage.toFixed(2)}%`
+    percent.innerText = `Percent: ${percentage.toFixed(2)}%`
 
     if(percentage >= 90){
         grade.innerText = 'Grade: A+'

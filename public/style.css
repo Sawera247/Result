@@ -105,10 +105,11 @@ body {
 
 .user-detail{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;  
+    text-align: center;
     border: #272d2c 2px solid;
-    width: clamp(200px, 90vw, 600px);
+    width: 100%;
     border-radius: 10px;
     font-size: clamp(1rem, 1.5vw, 1.5rem);
 }
@@ -116,7 +117,7 @@ body {
 .user-detail p {
     border: #272d2c 1px solid;
     border-radius: 4px;
-    width: clamp(200px, 22vw, 500px);
+    width: 100%;
     padding-block: 10px;
 }
 
@@ -156,7 +157,7 @@ body {
 .result p{
     border: #272d2c 1px solid;
     border-radius: 4px;
-    width: clamp(100px, 50vw, 199px);
+    width: 100%;
     padding-block: 15px;
 }
 
